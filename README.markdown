@@ -25,8 +25,9 @@ to expand my own expertise by doing the "branching" and insecurity of the tasks.
 
 What I want to find out is: Is this really an unmessy way of doing web development?
 
-# I am not a known orderly person, which let's me seem this rails dev model as a possible big 
-# help with it's built in structure, easy to make steps, easy to get your bearings. 
+
+# this rails dev model seems like development culture, that feels solid. empowering 
+
 
 A clear goal, and then doing it. Bit by bit. Without wasting time and energy. Doing stuff that is 
 reusable, that is what I want. No "hyper" stuff. Simple clear efficient. 
