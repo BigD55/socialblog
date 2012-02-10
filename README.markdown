@@ -25,7 +25,10 @@ to expand my own expertise by doing the "branching" and insecurity of the tasks.
 
 What I want to find out is: Is this really an unmessy way of doing web development?
 
-A clear goal, and then doing it. Without wasting time and energy. Doing stuff that is 
+# I am not a known orderly person, which let's me seem this rails dev model as a possible big 
+# help with it's built in structure, easy to make steps, easy to get your bearings. 
+
+A clear goal, and then doing it. Bit by bit. Without wasting time and energy. Doing stuff that is 
 reusable, that is what I want. No "hyper" stuff. Simple clear efficient. 
 Usable. 
 
