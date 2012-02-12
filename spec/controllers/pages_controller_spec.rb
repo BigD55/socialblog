@@ -2,7 +2,9 @@ require 'spec_helper'
 
 describe PagesController do
   render_views
-  
+  before(:each) do
+    @base_title = "zum Blog abgewandelte 'sample_app'" 
+  end
   describe "GET 'home'" do
     it "should be successful" do
       get 'home'
@@ -11,7 +13,7 @@ describe PagesController do
      it "sollte einen Titel haben" do
         get 'home'
         response.should have_selector( "title", 
-                     :content => "zum Blog abgewandelte 'sample_app' | Home") 
+                     :content => @base_title + " | Home") 
     end
   end
 
@@ -23,7 +25,7 @@ describe PagesController do
     it "sollte einen Titel haben" do
          get 'kontakt'
          response.should have_selector( "title",
-                     :content => "zum Blog abgewandelte 'sample_app' | Kontakt") 
+                     :content => @base_title + " | Kontakt") 
      end
   
   end
@@ -35,7 +37,7 @@ describe PagesController do
     it "sollte einen Titel haben" do
          get 'ueber'
          response.should have_selector( "title",
-                     :content => "zum Blog abgewandelte 'sample_app' | Ueber") 
+                     :content => @base_title + " | Ueber") 
      end
 
   end
@@ -47,7 +49,7 @@ describe PagesController do
     it "sollte einen Titel haben" do
          get 'impressum'
          response.should have_selector( "title",
-                   :content => "zum Blog abgewandelte 'sample_app' | Impressum") 
+                   :content => @base_title + " | Impressum") 
      end
 
   end
