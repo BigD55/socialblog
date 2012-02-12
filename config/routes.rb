@@ -1,4 +1,9 @@
 Blogapp::Application.routes.draw do
+  get "pages/home"
+  get "pages/kontakt"
+  get "pages/ueber"
+  get "pages/impressum"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
